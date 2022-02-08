@@ -11,5 +11,10 @@ Upgrade ubuntu
 
 ![](images/2.png)
 
-Add certif
-vv
+Add certificates 
+`sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates`
+
+`curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -`
+
+![](images/3.png)
+![](images/4.png)
